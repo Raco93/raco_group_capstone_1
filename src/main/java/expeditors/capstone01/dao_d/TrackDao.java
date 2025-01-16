@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class TrackDao {
 
-    private final Map<Integer, Track> tracks = new HashMap<>();
+    public final Map<Integer, Track> tracks = new HashMap<>();
     private static final AtomicInteger nextId = new AtomicInteger(1); // AtomicInteger로 고유 ID 생성
 
     public void addTrack(Track track) {

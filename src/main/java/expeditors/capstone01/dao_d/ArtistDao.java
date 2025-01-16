@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class ArtistDao {
 
-    private final Map<Integer, Artist> artists = new HashMap<>();
+    public final Map<Integer, Artist> artists = new HashMap<>();
 
     private static final AtomicInteger nextId = new AtomicInteger(1);
 
