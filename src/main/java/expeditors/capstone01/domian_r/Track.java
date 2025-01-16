@@ -1,6 +1,5 @@
 package expeditors.capstone01.domian_r;
 
-
 public class Track {
 
     private int id;
@@ -12,7 +11,6 @@ public class Track {
     private String location;
 
     private String description;
-
 
     public int getId() {
         return id;
