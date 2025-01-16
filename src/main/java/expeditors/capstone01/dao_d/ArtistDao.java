@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class ArtisDao {
+public class ArtistDao {
 
     private final Map<Integer, Artist> artists = new HashMap<>();
 

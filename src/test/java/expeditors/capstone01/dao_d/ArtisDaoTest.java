@@ -8,12 +8,12 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 class ArtisDaoTest {
 
-    private ArtisDao artistDao;
+    private ArtistDao artistDao;
     private TrackDao trackDao;
 
     @BeforeEach
     public void setUp() {
-        artistDao = new ArtisDao();
+        artistDao = new ArtistDao();
         trackDao = new TrackDao();
     }
 
