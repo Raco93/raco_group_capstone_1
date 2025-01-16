@@ -1,4 +1,4 @@
 package expeditors.capstone01.dao_d;
 
-public class ArtisDao {
+public class ArtistDao {
 }
